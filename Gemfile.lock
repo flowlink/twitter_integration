@@ -1,0 +1,73 @@
+GIT
+  remote: git://github.com/spree/endpoint_base.git
+  revision: f9e595fbf41c1509a4afc58ab805a7b0e5c74a51
+  specs:
+    endpoint_base (0.3)
+      activesupport
+      jbuilder
+      json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.0)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.3.6)
+    buftok (0.2.0)
+    equalizer (0.0.9)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    http (0.6.3)
+      http_parser.rb (~> 0.6.0)
+    http_parser.rb (0.6.0)
+    i18n (0.7.0)
+    jbuilder (2.2.6)
+      activesupport (>= 3.0.0, < 5)
+      multi_json (~> 1.2)
+    json (1.8.2)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    minitest (5.5.1)
+    multi_json (1.10.1)
+    multipart-post (2.0.0)
+    naught (1.0.0)
+    rack (1.6.0)
+    rack-protection (1.5.3)
+      rack
+    simple_oauth (0.3.1)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    thread_safe (0.3.4)
+    tilt (1.4.1)
+    tilt-jbuilder (0.6.1)
+      jbuilder
+      tilt (<= 1.5.0)
+    twitter (5.13.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.6.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  endpoint_base!
+  sinatra
+  tilt (~> 1.4.1)
+  tilt-jbuilder
+  twitter
